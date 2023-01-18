@@ -1,13 +1,15 @@
-# rsv
+# rsvce
 
-Read the Word of God from your terminal
+Read the Word of God from your terminal.
+
+Uses the Revised Standard Version Catholic Edition translation.
 
 Forked from [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmithxyz/kjv.git).
 
 
 ## Usage
 
-    usage: ./kjv [flags] [reference...]
+    usage: ./rsvce [flags] [reference...]
 
       -l      list books
       -W      no line wrap
@@ -36,10 +38,10 @@ Forked from [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmi
 
 ## Build
 
-rsv can be built by cloning the repository and then running make:
+rsvce can be built by cloning the repository and then running make:
 
-    git clone https://github.com/zachsalazar/rsv.git
-    cd kjv
+    git clone https://github.com/zachsalazar/rsvce.git
+    cd rsvce
     sudo make install
 
 ## License
