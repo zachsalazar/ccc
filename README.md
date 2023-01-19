@@ -1,15 +1,13 @@
-# rsvce
+# ccc
 
-Read the Word of God from your terminal.
-
-Uses the Revised Standard Version Catholic Edition translation.
+Read the Catechism of the Catholic Church from your terminal.
 
 Forked from [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmithxyz/kjv.git).
 
 
 ## Usage
 
-    usage: ./rsvce [flags] [reference...]
+    usage: ./ccc [flags] [reference...]
 
       -l      list books
       -W      no line wrap
@@ -38,12 +36,14 @@ Forked from [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmi
 
 ## Build
 
-rsvce can be built by cloning the repository and then running make:
+ccc can be built by cloning the repository and then running make:
 
-    git clone https://github.com/zachsalazar/rsvce.git
-    cd rsvce
+    git clone https://github.com/zachsalazar/ccc.git
+    cd ccc
     sudo make install
 
 ## License
 
-Public domain
+     
+
+Excerpts from the English translation of the Catechism of the Catholic Church for use in the United States of America Copyright © 1994, United States Catholic Conference, Inc. -- Libreria Editrice Vaticana. Used with Permission. English translation of the Catechism of the Catholic Church: Modifications from the Editio Typica copyright © 1997, United States Conference of Catholic Bishops—Libreria Editrice Vaticana.
