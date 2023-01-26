@@ -1,24 +1,24 @@
 PREFIX = /usr/local
 
-kjv: kjv.sh kjv.awk kjv.tsv
-	cat kjv.sh > $@
+ccc: ccc.sh ccc.awk ccc.tsv
+	cat ccc.sh > $@
 	echo 'exit 0' >> $@
 	echo '#EOF' >> $@
-	tar czf - kjv.awk kjv.tsv >> $@
+	tar czf - ccc.awk ccc.tsv >> $@
 	chmod +x $@
 
-test: kjv.sh
-	shellcheck -s sh kjv.sh
+test: ccc.sh
+	shellcheck -s sh ccc.sh
 
 clean:
-	rm -f kjv
+	rm -f ccc
 
-install: kjv
+install: ccc
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
-	cp -f kjv $(DESTDIR)$(PREFIX)/bin
-	chmod 755 $(DESTDIR)$(PREFIX)/bin/kjv
+	cp -f ccc $(DESTDIR)$(PREFIX)/bin
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/ccc
 
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/kjv
+	rm -f $(DESTDIR)$(PREFIX)/bin/ccc
 
 .PHONY: test clean install uninstall
