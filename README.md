@@ -68,10 +68,3 @@ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
 For more information, please refer to <http://unlicense.org/>
-
-Excerpts from the English translation of the Catechism of the Catholic 
-Church for use in the United States of America Copyright © 1994, United 
-States Catholic Conference, Inc. -- Libreria Editrice Vaticana. Used with 
-Permission. English translation of the Catechism of the Catholic Church: 
-Modifications from the Editio Typica copyright © 1997, United States 
-Conference of Catholic Bishops—Libreria Editrice Vaticana.
